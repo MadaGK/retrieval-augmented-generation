@@ -62,19 +62,6 @@ python main.py --mode interactive
 # Demo mode
 python main.py --mode demo
 ```
-
-## Required Modifications
-
-**This is a scaffold - you MUST modify the following:**
-
-| File | What to Modify |
-|------|----------------|
-| `src/loader.py` | Chunking strategy, file types |
-| `src/embedder.py` | Embedding model selection |
-| `src/retriever.py` | Retrieval parameters, hybrid search |
-| `src/generator.py` | Prompt template, LLM choice |
-| `src/pipeline.py` | Pipeline configuration, evaluation |
-
 ## Key Commands
 
 ```bash
